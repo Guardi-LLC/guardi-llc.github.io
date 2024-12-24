@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API - Guardilua</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Guardilua Logo">
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="content-section">
+    <div class="container">
+      <h1>Guardilua API</h1>
+      <p>Welcome to the Guardilua API documentation. Use the endpoints below to integrate Guardilua's protection system into your projects.</p>
+      <div class="api-docs">
+        <h2>Endpoints</h2>
+        <ul>
+          <li><strong>POST /api/auth/register</strong> - Register a new user</li>
+          <li><strong>POST /api/auth/login</strong> - Authenticate a user</li>
+          <li><strong>GET /api/scripts/{id}</strong> - Retrieve a protected script</li>
+          <li><strong>POST /api/scripts</strong> - Upload and obfuscate a script</li>
+          <li><strong>GET /api/user/{id}</strong> - Fetch user details</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Guardilua. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
